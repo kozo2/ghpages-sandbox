@@ -1,10 +1,2 @@
 remote_theme: pages-themes/primer
 title: hoge
-github:
-  private: false
-  license:
-    name: MIT
-  source:
-    branch: "master"
-    path: "/"
-  repository_url: "https://github.com/kozo2/ghpages-sandbox/edit/master/_config.yml"
