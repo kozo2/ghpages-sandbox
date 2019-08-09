@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Hello E-Cell4
 
-You can use the [editor on GitHub](https://github.com/kozo2/ghpages-sandbox/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+E-Cell System is a software platform for modeling, simulation and analysis of complex, heterogeneous and multi-scale systems like the cell.
 
 ### Markdown
 
