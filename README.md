@@ -28,17 +28,27 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### test
 
-<h1>
-<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<style>
+ .grid {
+  display: flex;
+ }
+.col-1-2 {
+  flex: 1;
+}
+.cole-1-2:last-child {
+  margin-left: 20px;
+}
+</style>
 
-<div id="subfeatures" style="width: 100%">
-    <div id="subfeature1" class="feature-tile"><h3 style="text-align: left">Single particle simulations</h3><p style="font-size: 0.8em">This is a description about feature1. <a href="http://gfrd.org">The enhanced Green's Function Reaction Dynamics (eGFRD) method</a>, <a href="http://spatiocyte.org">Spatiocyte</a>, and the Reaction Brownian Dynamics (RBD) method.</p></div>
-    <div id="subfeature2" class="feature-tile"><h3 style="text-align: left">Multi-algorithm support</h3><p style="font-size: 0.85em">This is a description about feature2.</p></div>
-    <div id="subfeature3" class="feature-tile"><h3 style="text-align: left">Rule-based modeling</h3><p style="font-size: 0.85em">This is a description about feature3.</p></div>
-    <div id="subfeature4" class="feature-tile"><h3 style="text-align: left">Python programmable</h3><p style="font-size: 0.85em">This is a description about feature4.</p></div>
-    <div id="subfeature5" class="feature-tile"><h3 style="text-align: left">Interactive visualizations on Jupyter Notebook</h3><p style="font-size: 0.85em">This is a description about feature5.</p></div>
-    <div id="subfeature6" class="feature-tile"><h3 style="text-align: left">Bioinformatics integration</h3><p style="font-size: 0.85em">Garuda gadget, data source, etc.</p></div>
-    <div style="clear: both"></div>
+<div class="grid">
+    <div class="col-1-2">
+       <div class="content">
+           <p>...insert content left side...</p>
+       </div>
+    </div>
+    <div class="col-1-2">
+       <div class="content">
+           <p>...insert content right side...</p>
+       </div>
+    </div>
 </div>
-
-<h1>
