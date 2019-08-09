@@ -6,22 +6,13 @@ E-Cell System is a software platform for modeling, simulation and analysis of co
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+```python
+from ecell4 import *
 
-# Header 1
-## Header 2
-### Header 3
+with reaction_rules():
+    A + B == C | (0.01, 0.3)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+run_simulation(10, {'A': 60, 'B': 60}, solver='gillespie')
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
