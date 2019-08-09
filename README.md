@@ -1,4 +1,3 @@
-{% include_relative header.html %}
 
 ## Hello E-Cell4
 
